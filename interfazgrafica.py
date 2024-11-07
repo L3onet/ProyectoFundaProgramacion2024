@@ -19,4 +19,9 @@ input_anios.place(x=200, y=40, width=80)
 input_interes = ttk.Entry()
 input_interes.place(x=200, y=70, width=80)
 
+boton_calcular = ttk.Button(text="Calcular")
+boton_calcular.place(x=100, y=100)
+
+etiqueta_monto = ttk.Label(text="El monto acumulado es:")
+etiqueta_monto.place(x=10, y=130)
 ventana.mainloop()
