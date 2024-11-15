@@ -1,3 +1,6 @@
+import tkinter as tk
+from tkinter import messagebox
+
 class CuentaInversion:
     # Atributos
     __cantidadDinero = 0.0
@@ -95,4 +98,3 @@ if __name__ == "__main__":
             print("Vuelve a introducir un valor numerico")
     
     print("El monto acumulado es: ", cuentaJennifer.calcularMontoAcumulado(dinero, anios, tasa))
-
